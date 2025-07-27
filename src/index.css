@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css2?family=Acme&display=swap);
+
+@import "tailwindcss";
+
+html,
+body {
+  background-color: black;
+  scroll-behavior: smooth;
+  font-family: "Acme", sans-serif;
+}
+
+#section1 {
+  background: linear-gradient(to bottom, transparent, #00000090),
+    url("/intersteller-1.jpg") center no-repeat;
+  background-size: cover;
+}
+
+#section2 {
+  background: linear-gradient(to bottom, transparent, #00000090),
+    url("/intersteller-2.jpg") center no-repeat;
+  background-size: cover;
+}
+#section3 {
+  background: linear-gradient(to bottom, transparent, #00000090),
+    url("/intersteller-3.jpg") center no-repeat;
+  background-size: cover;
+}
+#section4 {
+  background: linear-gradient(to bottom, transparent, #000000),
+    url("/intersteller-4.jpg") center no-repeat;
+  background-size: cover;
+}
